@@ -5,7 +5,7 @@
 
 `run.py` 读取光敏电阻传感器，并驱动小型舵机在检测到闪电后按下 PSV 屏幕上的 O 键。
 
-英文版请见 `README.md`。
+英文版请见 [README.md](README.md)。
 
 ## 概述
 
