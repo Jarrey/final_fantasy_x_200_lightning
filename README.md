@@ -5,7 +5,7 @@ This project is a Raspberry Pi-based hardware automation inspired by the article
 
 The script in `run.py` reads a light sensor and drives a small servo to press the O button on a PSV screen as soon as the lightning flash is detected.
 
-For a Chinese version of the README, see `README_zh.md`.
+For a Chinese version of the README, see [README_zh.md](README_zh.md).
 
 ## Overview
 
