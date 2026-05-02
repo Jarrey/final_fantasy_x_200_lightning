@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 
 import RPi.GPIO as GPIO
 import time
@@ -27,15 +27,15 @@ try:
     i = 0
     while True:
         v = GPIO.input(lightPin)
-        if (v == GPIO.LOW):
+        if v == GPIO.LOW:
             servo_set(30)
             time.sleep(0.1)
             servo_set(60)
             time.sleep(0.1)
             servo_set(30)
             time.sleep(0.1)
-            i = i + 1
-            print i
+            i += 1
+            print(i)
                             
 except KeyboardInterrupt:
     pass    
